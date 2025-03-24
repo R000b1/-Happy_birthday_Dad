@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+}
+.card, .gallery-item {
+    background: #F5F5DC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+h1 {
+    color: #ff4081;
+    margin-top: 0;
+}
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.gallery-item img, .gallery-item video {
+    max-width: 60%;
+    border-radius: 10px;
+}
+.gallery-item video {
+    max-width: 40%;
+}
+.first-image {
+    max-width: 80%;
+}
